@@ -1,0 +1,387 @@
+{
+  "Controller_map": {
+    "axs1": {
+      "description": {
+	"pos": "Zoom Wide",
+	"neg": "Zoom Tele"
+      },
+      "range16": {
+        "limits": [
+          -1800,
+          1800
+        ],
+        "cmd": "8101040700FF",
+        "isBinary": "TRUE"
+      },
+      "range15": {
+        "limits": [
+          -5672,
+          -1801
+        ],
+        "cmd": "8101040720FF",
+        "isBinary": "TRUE"
+      },
+      "range14": {
+        "limits": [
+          -9542,
+          -5673
+        ],
+        "cmd": "8101040721FF",
+        "isBinary": "TRUE"
+      },
+      "range13": {
+        "limits": [
+          -13412,
+          -9542
+        ],
+        "cmd": "8101040722FF",
+        "isBinary": "TRUE"
+      },
+      "range12": {
+        "limits": [
+          -17283,
+          -13413
+        ],
+        "cmd": "8101040723FF",
+        "isBinary": "TRUE"
+      },
+      "range11": {
+        "limits": [
+          -21154,
+          -17284
+        ],
+        "cmd": "8101040724FF",
+        "isBinary": "TRUE"
+      },
+      "range10": {
+        "limits": [
+          -25025,
+          -21155
+        ],
+        "cmd": "8101040725FF",
+        "isBinary": "TRUE"
+      },
+      "range9": {
+        "limits": [
+          -28896,
+          -25026
+        ],
+        "cmd": "8101040726FF",
+        "isBinary": "TRUE"
+      },
+      "range8": {
+        "limits": [
+          -32767,
+          -28897
+        ],
+        "cmd": "8101040727FF",
+        "isBinary": "TRUE"
+      },
+      "range7": {
+        "limits": [
+          28897,
+          32767
+        ],
+        "cmd": "8101040737FF",
+        "isBinary": "TRUE"
+      },
+      "range6": {
+        "limits": [
+          25026,
+          28897
+        ],
+        "cmd": "8101040736FF",
+        "isBinary": "TRUE"
+      },
+      "range5": {
+        "limits": [
+          21155,
+          25025
+        ],
+        "cmd": "8101040735FF",
+        "isBinary": "TRUE"
+      },
+      "range4": {
+        "limits": [
+          17284,
+          21154
+        ],
+        "cmd": "8101040734FF",
+        "isBinary": "TRUE"
+      },
+      "range3": {
+        "limits": [
+          13413,
+          17283
+        ],
+        "cmd": "8101040733FF",
+        "isBinary": "TRUE"
+      },
+      "range2": {
+        "limits": [
+          9542,
+          13412
+        ],
+        "cmd": "8101040732FF",
+        "isBinary": "TRUE"
+      },
+      "range1": {
+        "limits": [
+          5670,
+          9541
+        ],
+        "cmd": "8101040731FF",
+        "isBinary": "TRUE"
+      },
+      "range0": {
+        "limits": [
+          1800,
+          5669
+        ],
+        "cmd": "8101040730FF",
+        "isBinary": "TRUE"
+      }
+    },
+    "axs4": {
+      "description": {
+	"pos": "Focus Near",
+	"neg": "Focus Far"
+      },
+      "range16": {
+        "limits": [
+          -3000,
+          3000
+        ],
+        "cmd": "8101040800FF",
+        "isBinary": "TRUE"
+      },
+      "range15": {
+        "limits": [
+          -5672,
+          -3001
+        ],
+        "cmd": "8101040820FF",
+        "isBinary": "TRUE"
+      },
+      "range14": {
+        "limits": [
+          -9542,
+          -5673
+        ],
+        "cmd": "8101040820FF",
+        "isBinary": "TRUE"
+      },
+      "range13": {
+        "limits": [
+          -13412,
+          -9542
+        ],
+        "cmd": "8101040820FF",
+        "isBinary": "TRUE"
+      },
+      "range12": {
+        "limits": [
+          -17283,
+          -13413
+        ],
+        "cmd": "8101040821FF",
+        "isBinary": "TRUE"
+      },
+      "range11": {
+        "limits": [
+          -21154,
+          -17284
+        ],
+        "cmd": "8101040821FF",
+        "isBinary": "TRUE"
+      },
+      "range10": {
+        "limits": [
+          -25025,
+          -21155
+        ],
+        "cmd": "8101040821FF",
+        "isBinary": "TRUE"
+      },
+      "range9": {
+        "limits": [
+          -28896,
+          -25026
+        ],
+        "cmd": "8101040822FF",
+        "isBinary": "TRUE"
+      },
+      "range8": {
+        "limits": [
+          -32767,
+          -28897
+        ],
+        "cmd": "8101040822FF",
+        "isBinary": "TRUE"
+      },
+      "range7": {
+        "limits": [
+          28897,
+          32767
+        ],
+        "cmd": "8101040832FF",
+        "isBinary": "TRUE"
+      },
+      "range6": {
+        "limits": [
+          25026,
+          28897
+        ],
+        "cmd": "8101040832FF",
+        "isBinary": "TRUE"
+      },
+      "range5": {
+        "limits": [
+          21155,
+          25025
+        ],
+        "cmd": "8101040831FF",
+        "isBinary": "TRUE"
+      },
+      "range4": {
+        "limits": [
+          17284,
+          21154
+        ],
+        "cmd": "8101040831FF",
+        "isBinary": "TRUE"
+      },
+      "range3": {
+        "limits": [
+          13413,
+          17283
+        ],
+        "cmd": "8101040831FF",
+        "isBinary": "TRUE"
+      },
+      "range2": {
+        "limits": [
+          9542,
+          13412
+        ],
+        "cmd": "8101040830FF",
+        "isBinary": "TRUE"
+      },
+      "range1": {
+        "limits": [
+          5670,
+          9541
+        ],
+        "cmd": "8101040830FF",
+        "isBinary": "TRUE"
+      },
+      "range0": {
+        "limits": [
+          3000,
+          5669
+        ],
+        "cmd": "8101040830FF",
+        "isBinary": "TRUE"
+      }
+    },
+    "axs6": {
+      "description": {
+	"pos": "Gain Up",
+	"neg": "Gain Down"
+      },
+      "range0": {
+        "limits": [
+          32766,
+          32767
+        ],
+        "cmd": "8101040C02FF",
+        "isBinary": "TRUE"
+      },
+      "range1": {
+        "limits": [
+          -32767,
+          -32766
+        ],
+        "cmd": "8101040C03FF",
+        "isBinary": "TRUE"
+      }
+    },
+    "axs7": {
+      "description": {
+	"pos": "Iris Down",
+	"neg": "Iris Up"
+      },
+      "range0": {
+        "limits": [
+          32766,
+          32767
+        ],
+        "cmd": "8101040B03FF",
+        "isBinary": "TRUE"
+      },
+      "range1": {
+        "limits": [
+          -32767,
+          -32766
+        ],
+        "cmd": "8101040B02FF",
+        "isBinary": "TRUE"
+      }
+    },
+    "btn0": {
+      "cmd": "8101043810FF",
+      "convertToBinary": "true",
+      "description": "Toggle Focus"
+    },
+    "btn1": {
+      "cmd": "8100FF",
+      "convertToBinary": "true",
+      "description": "-"
+    },
+    "btn2": {
+      "cmd": "8100FF",
+      "convertToBinary": "true",
+      "description": "-"
+    },
+    "btn3": {
+      "cmd": "8100FF",
+      "convertToBinary": "true",
+      "description": "-"
+    },
+    "btn4": {
+      "cmd": "8101040A03FF",
+      "convertToBinary": "true",
+      "description": "Shutter Down"
+    },
+    "btn5": {
+      "cmd": "8101040A02FF",
+      "convertToBinary": "true",
+      "description": "Shutter Up"
+    },
+    "btn6": {
+      "cmd": "8101043900FF",
+      "convertToBinary": "true",
+      "description": "Auto AE"
+    },
+    "btn7": {
+      "cmd": "8101043903FF",
+      "convertToBinary": "true",
+      "description": "Manual AE"
+    },
+    "btn8": {
+      "cmd": "8100FF",
+      "convertToBinary": "true",
+      "description": "-"
+    },
+    "btn9": {
+      "cmd": "8100FF",
+      "convertToBinary": "true",
+      "description": "-"
+    },
+    "btn10": {
+      "cmd": "8100FF",
+      "convertToBinary": "true",
+      "description": "-"
+    }
+  }
+}
