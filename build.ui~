@@ -248,7 +248,7 @@
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
                             <property name="halign">center</property>
-                            <property name="label" translatable="yes">AE Mode</property>
+                            <property name="label" translatable="yes">AE Mode 7</property>
                             <property name="justify">center</property>
                             <attributes>
                               <attribute name="font-desc" value="&lt;Enter Value&gt; 12"/>
