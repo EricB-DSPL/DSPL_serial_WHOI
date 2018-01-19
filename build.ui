@@ -387,7 +387,7 @@
                               <object class="GtkLabel" id="label1">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <property name="label" translatable="yes">Shutter</property>
+                                <property name="label" translatable="yes">Shutter+++</property>
                                 <attributes>
                                   <attribute name="font-desc" value="&lt;Enter Value&gt; 12"/>
                                   <attribute name="scale" value="1"/>
