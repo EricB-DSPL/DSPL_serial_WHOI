@@ -10,283 +10,560 @@
           -1800,
           1800
         ],
-        "cmd": "8101040700FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040700FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range15": {
         "limits": [
           -5672,
           -1801
         ],
-        "cmd": "8101040720FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040720FF",
+        "convertToBinary": "TRUE",
+	"FLAGS": 2
       },
       "range14": {
         "limits": [
           -9542,
           -5673
         ],
-        "cmd": "8101040721FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040721FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range13": {
         "limits": [
           -13412,
           -9542
         ],
-        "cmd": "8101040722FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040722FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range12": {
         "limits": [
           -17283,
           -13413
         ],
-        "cmd": "8101040723FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040723FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range11": {
         "limits": [
           -21154,
           -17284
         ],
-        "cmd": "8101040724FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040724FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range10": {
         "limits": [
           -25025,
           -21155
         ],
-        "cmd": "8101040725FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040725FF",
+        "convertToBinary": "TRUE",
+	"FLAGS": 1
       },
       "range9": {
         "limits": [
           -28896,
           -25026
         ],
-        "cmd": "8101040726FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040726FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range8": {
         "limits": [
           -32767,
           -28897
         ],
-        "cmd": "8101040727FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040727FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range7": {
         "limits": [
           28897,
           32767
         ],
-        "cmd": "8101040737FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040737FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range6": {
         "limits": [
           25026,
           28897
         ],
-        "cmd": "8101040736FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040736FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range5": {
         "limits": [
           21155,
           25025
         ],
-        "cmd": "8101040735FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040735FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range4": {
         "limits": [
           17284,
           21154
         ],
-        "cmd": "8101040734FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040734FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 2
       },
       "range3": {
         "limits": [
           13413,
           17283
         ],
-        "cmd": "8101040733FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040733FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range2": {
         "limits": [
           9542,
           13412
         ],
-        "cmd": "8101040732FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040732FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range1": {
         "limits": [
           5670,
           9541
         ],
-        "cmd": "8101040731FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040731FF",
+        "convertToBinary": "TRUE",
+	"FLAGS": 1
       },
       "range0": {
         "limits": [
           1800,
           5669
         ],
-        "cmd": "8101040730FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040730FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       }
     },
-    "axs4": {
+    "axs5": {
+      "description": {
+	"pos": "Focus Far",
+	"neg": "Focus Far"
+      },
+      "range3": {
+        "limits": [
+          16382,
+          32767
+        ],
+        "cmd": "!001:BSCH=0,8101040822FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range2": {
+        "limits": [
+          1,
+          16383
+        ],
+        "cmd": "!001:BSCH=0,8101040821FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range1": {
+        "limits": [
+          -16382,
+          0
+        ],
+        "cmd": "!001:BSCH=0,8101040820FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range0": {
+        "limits": [
+          -32767,
+          -16383
+        ],
+        "cmd": "!001:BSCH=0,8101040800FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      }
+    },
+    "axs2": {
       "description": {
 	"pos": "Focus Near",
-	"neg": "Focus Far"
+	"neg": "Focus Near"
+      },
+      "range3": {
+        "limits": [
+          16382,
+          32767
+        ],
+        "cmd": "!001:BSCH=0,8101040832FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range2": {
+        "limits": [
+          1,
+          16383
+        ],
+        "cmd": "!001:BSCH=0,8101040831FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range1": {
+        "limits": [
+          -16382,
+          0
+        ],
+        "cmd": "!001:BSCH=0,8101040830FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range0": {
+        "limits": [
+          -32767,
+          -16383
+        ],
+        "cmd": "!001:BSCH=0,8101040800FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      }
+    },
+    "axs3": {
+      "description": {
+	"pos": "Pan Right",
+	"neg": "Pan Left"
       },
       "range16": {
         "limits": [
-          -3000,
-          3000
+          -3500,
+          3500
         ],
-        "cmd": "8101040800FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=3,1",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range15": {
         "limits": [
           -5672,
-          -3001
+          -1801
         ],
-        "cmd": "8101040820FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=1,1",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range14": {
         "limits": [
           -9542,
           -5673
         ],
-        "cmd": "8101040820FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=1,2",
+        "convertToBinary": "FALSE",
+		"FLAGS": 1
       },
       "range13": {
         "limits": [
           -13412,
           -9542
         ],
-        "cmd": "8101040820FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=1,3",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range12": {
         "limits": [
           -17283,
           -13413
         ],
-        "cmd": "8101040821FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=1,4",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range11": {
         "limits": [
           -21154,
           -17284
         ],
-        "cmd": "8101040821FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=1,5",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range10": {
         "limits": [
           -25025,
           -21155
         ],
-        "cmd": "8101040821FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=1,6",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range9": {
         "limits": [
           -28896,
           -25026
         ],
-        "cmd": "8101040822FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=1,7",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range8": {
         "limits": [
           -32767,
           -28897
         ],
-        "cmd": "8101040822FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=1,8",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range7": {
         "limits": [
           28897,
           32767
         ],
-        "cmd": "8101040832FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=2,8",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range6": {
         "limits": [
           25026,
           28897
         ],
-        "cmd": "8101040832FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=2,7",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range5": {
         "limits": [
           21155,
           25025
         ],
-        "cmd": "8101040831FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=2,6",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range4": {
         "limits": [
           17284,
           21154
         ],
-        "cmd": "8101040831FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=2,5",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range3": {
         "limits": [
           13413,
           17283
         ],
-        "cmd": "8101040831FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=2,4",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range2": {
         "limits": [
           9542,
           13412
         ],
-        "cmd": "8101040830FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=2,3",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range1": {
         "limits": [
           5670,
           9541
         ],
-        "cmd": "8101040830FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=2,2",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range0": {
         "limits": [
-          3000,
+          3500,
           5669
         ],
-        "cmd": "8101040830FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:PTSP=2,1",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      }
+    },
+    "axs4": {
+      "description": {
+	"pos": "Tilt Up",
+	"neg": "Tilt Down"
+      },
+      "range16": {
+        "limits": [
+          -3500,
+          3500
+        ],
+        "cmd": "!001:PTST=3,1",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range15": {
+        "limits": [
+          -5672,
+          -1801
+        ],
+        "cmd": "!001:PTST=1,1",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range14": {
+        "limits": [
+          -9542,
+          -5673
+        ],
+        "cmd": "!001:PTST=1,2",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range13": {
+        "limits": [
+          -13412,
+          -9542
+        ],
+        "cmd": "!001:PTST=1,3",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range12": {
+        "limits": [
+          -17283,
+          -13413
+        ],
+        "cmd": "!001:PTST=1,4",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range11": {
+        "limits": [
+          -21154,
+          -17284
+        ],
+        "cmd": "!001:PTST=1,5",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range10": {
+        "limits": [
+          -25025,
+          -21155
+        ],
+        "cmd": "!001:PTST=1,6",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range9": {
+        "limits": [
+          -28896,
+          -25026
+        ],
+        "cmd": "!001:PTST=1,7",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range8": {
+        "limits": [
+          -32767,
+          -28897
+        ],
+        "cmd": "!001:PTST=1,8",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range7": {
+        "limits": [
+          28897,
+          32767
+        ],
+        "cmd": "!001:PTST=2,8",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range6": {
+        "limits": [
+          25026,
+          28897
+        ],
+        "cmd": "!001:PTST=2,7",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range5": {
+        "limits": [
+          21155,
+          25025
+        ],
+        "cmd": "!001:PTST=2,6",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range4": {
+        "limits": [
+          17284,
+          21154
+        ],
+        "cmd": "!001:PTST=2,5",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range3": {
+        "limits": [
+          13413,
+          17283
+        ],
+        "cmd": "!001:PTST=2,4",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range2": {
+        "limits": [
+          9542,
+          13412
+        ],
+        "cmd": "!001:PTST=2,3",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range1": {
+        "limits": [
+          5670,
+          9541
+        ],
+        "cmd": "!001:PTST=2,2",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
+      },
+      "range0": {
+        "limits": [
+          3500,
+          5669
+        ],
+        "cmd": "!001:PTST=2,1",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       }
     },
     "axs6": {
       "description": {
-	"pos": "Gain Up",
+	"pos": "Gain Upd",
 	"neg": "Gain Down"
       },
       "range0": {
@@ -294,16 +571,18 @@
           32766,
           32767
         ],
-        "cmd": "8101040C02FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040C02FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range1": {
         "limits": [
           -32767,
           -32766
         ],
-        "cmd": "8101040C03FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040C03FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       }
     },
     "axs7": {
@@ -316,72 +595,85 @@
           32766,
           32767
         ],
-        "cmd": "8101040B03FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040B03FF",
+        "convertToBinary": "FALSE",
+	"FLAGS": 1
       },
       "range1": {
         "limits": [
           -32767,
           -32766
         ],
-        "cmd": "8101040B02FF",
-        "isBinary": "TRUE"
+        "cmd": "!001:BSCH=0,8101040B02FF",
+        "convertToBinary": "TRUE",
+	"FLAGS": 1
       }
     },
     "btn0": {
-      "cmd": "8101043810FF",
-      "convertToBinary": "true",
-      "description": "Toggle Focus"
+      "cmd": "!001:BSCH=0,8101043810FF",
+      "convertToBinary": "FALSE",
+      "description": "Toggle Focus",
+      "FLAGS": 1
     },
     "btn1": {
       "cmd": "8100FF",
       "convertToBinary": "true",
-      "description": "-"
+      "description": "-",
+      "FLAGS": 0
     },
     "btn2": {
       "cmd": "8100FF",
       "convertToBinary": "true",
-      "description": "-"
+      "description": "-",
+      "FLAGS": 0
     },
     "btn3": {
       "cmd": "8100FF",
       "convertToBinary": "true",
-      "description": "-"
+      "description": "-",
+      "FLAGS": 0
     },
     "btn4": {
-      "cmd": "8101040A03FF",
-      "convertToBinary": "true",
-      "description": "Shutter Down"
+      "cmd": "!001:BSCH=0,8101040A03FF",
+      "convertToBinary": "FALSE",
+      "description": "Shutter Down",
+      "FLAGS": 1
     },
     "btn5": {
-      "cmd": "8101040A02FF",
-      "convertToBinary": "true",
-      "description": "Shutter Up"
+      "cmd": "!001:BSCH=0,8101040A02FF",
+      "convertToBinary": "FALSE",
+      "description": "Shutter Up",
+      "FLAGS": 1
     },
     "btn6": {
-      "cmd": "8101043900FF",
-      "convertToBinary": "true",
-      "description": "Auto AE"
+      "cmd": "!001:BSCH=0,8101043900FF",
+      "convertToBinary": "FALSE",
+      "description": "Auto AE",
+      "FLAGS": 1
     },
     "btn7": {
-      "cmd": "8101043903FF",
-      "convertToBinary": "true",
-      "description": "Manual AE"
+      "cmd": "!001:BSCH=0,8101043903FF",
+      "convertToBinary": "FALSE",
+      "description": "Manual AE",
+      "FLAGS": 1
     },
     "btn8": {
       "cmd": "8100FF",
       "convertToBinary": "true",
-      "description": "-"
+      "description": "-",
+      "FLAGS": 0
     },
     "btn9": {
       "cmd": "8100FF",
       "convertToBinary": "true",
-      "description": "-"
+      "description": "-",
+      "FLAGS": 0
     },
     "btn10": {
       "cmd": "8100FF",
       "convertToBinary": "true",
-      "description": "-"
+      "description": "-",
+      "FLAGS": 0
     }
   }
 }
