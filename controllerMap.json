@@ -605,7 +605,7 @@
           -32766
         ],
         "cmd": "!001:BSCH=0,8101040B02FF",
-        "convertToBinary": "TRUE",
+        "convertToBinary": "FALSE",
 	"FLAGS": 1
       }
     },
