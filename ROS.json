@@ -1,0 +1,10 @@
+{
+	"ROS_Settings": {
+		"UNIT_PAN": "A",
+		"DIRECTION_PAN": 1.0,
+
+		"UNIT_TILT": "B",
+		"DIRECTION_TILT": -1.0
+	}
+}
+

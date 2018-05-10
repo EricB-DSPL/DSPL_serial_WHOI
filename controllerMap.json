@@ -243,324 +243,180 @@
 	"FLAGS": 1
       }
     },
-    "axs3": {
-      "description": {
-	"pos": "Pan Right",
-	"neg": "Pan Left"
-      },
-      "range16": {
-        "limits": [
-          -3500,
-          3500
-        ],
-        "cmd": "!001:PTSP=3,1",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range15": {
-        "limits": [
-          -5672,
-          -1801
-        ],
-        "cmd": "!001:PTSP=1,1",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range14": {
-        "limits": [
-          -9542,
-          -5673
-        ],
-        "cmd": "!001:PTSP=1,2",
-        "convertToBinary": "FALSE",
-		"FLAGS": 1
-      },
-      "range13": {
-        "limits": [
-          -13412,
-          -9542
-        ],
-        "cmd": "!001:PTSP=1,3",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range12": {
-        "limits": [
-          -17283,
-          -13413
-        ],
-        "cmd": "!001:PTSP=1,4",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range11": {
-        "limits": [
-          -21154,
-          -17284
-        ],
-        "cmd": "!001:PTSP=1,5",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range10": {
-        "limits": [
-          -25025,
-          -21155
-        ],
-        "cmd": "!001:PTSP=1,6",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range9": {
-        "limits": [
-          -28896,
-          -25026
-        ],
-        "cmd": "!001:PTSP=1,7",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range8": {
-        "limits": [
-          -32767,
-          -28897
-        ],
-        "cmd": "!001:PTSP=1,8",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range7": {
-        "limits": [
-          28897,
-          32767
-        ],
-        "cmd": "!001:PTSP=2,8",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range6": {
-        "limits": [
-          25026,
-          28897
-        ],
-        "cmd": "!001:PTSP=2,7",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range5": {
-        "limits": [
-          21155,
-          25025
-        ],
-        "cmd": "!001:PTSP=2,6",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range4": {
-        "limits": [
-          17284,
-          21154
-        ],
-        "cmd": "!001:PTSP=2,5",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range3": {
-        "limits": [
-          13413,
-          17283
-        ],
-        "cmd": "!001:PTSP=2,4",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range2": {
-        "limits": [
-          9542,
-          13412
-        ],
-        "cmd": "!001:PTSP=2,3",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range1": {
-        "limits": [
-          5670,
-          9541
-        ],
-        "cmd": "!001:PTSP=2,2",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range0": {
-        "limits": [
-          3500,
-          5669
-        ],
-        "cmd": "!001:PTSP=2,1",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      }
-    },
     "axs4": {
-      "description": {
-	"pos": "Tilt Up",
-	"neg": "Tilt Down"
-      },
-      "range16": {
-        "limits": [
-          -3500,
-          3500
-        ],
-        "cmd": "!001:PTST=3,1",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range15": {
-        "limits": [
-          -5672,
-          -1801
-        ],
-        "cmd": "!001:PTST=1,1",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range14": {
-        "limits": [
-          -9542,
-          -5673
-        ],
-        "cmd": "!001:PTST=1,2",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range13": {
-        "limits": [
-          -13412,
-          -9542
-        ],
-        "cmd": "!001:PTST=1,3",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range12": {
-        "limits": [
-          -17283,
-          -13413
-        ],
-        "cmd": "!001:PTST=1,4",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range11": {
-        "limits": [
-          -21154,
-          -17284
-        ],
-        "cmd": "!001:PTST=1,5",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range10": {
-        "limits": [
-          -25025,
-          -21155
-        ],
-        "cmd": "!001:PTST=1,6",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range9": {
-        "limits": [
-          -28896,
-          -25026
-        ],
-        "cmd": "!001:PTST=1,7",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range8": {
-        "limits": [
-          -32767,
-          -28897
-        ],
-        "cmd": "!001:PTST=1,8",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range7": {
-        "limits": [
-          28897,
-          32767
-        ],
-        "cmd": "!001:PTST=2,8",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range6": {
-        "limits": [
-          25026,
-          28897
-        ],
-        "cmd": "!001:PTST=2,7",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range5": {
-        "limits": [
-          21155,
-          25025
-        ],
-        "cmd": "!001:PTST=2,6",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range4": {
-        "limits": [
-          17284,
-          21154
-        ],
-        "cmd": "!001:PTST=2,5",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range3": {
-        "limits": [
-          13413,
-          17283
-        ],
-        "cmd": "!001:PTST=2,4",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range2": {
-        "limits": [
-          9542,
-          13412
-        ],
-        "cmd": "!001:PTST=2,3",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range1": {
-        "limits": [
-          5670,
-          9541
-        ],
-        "cmd": "!001:PTST=2,2",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range0": {
-        "limits": [
-          3500,
-          5669
-        ],
-        "cmd": "!001:PTST=2,1",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      }
-    },
+			"description": {
+				"pos": "Tilt Up",
+				"neg": "Tilt Down"
+			},
+		"range0": {
+			"limits": [
+			  -3500,
+			  3500
+			],
+			"cmd": "!001:ROSA+s128",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+			},
+		"range1": {
+			"limits": [
+			3500,
+			8191
+			],
+			"cmd": "!001:ROSA+<001",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range2": {
+			"limits": [
+			8191,
+			16383
+			],
+			"cmd": "!001:ROSA+<003",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range3": {
+			"limits": [
+			16383,
+			24575
+			],
+			"cmd": "!001:ROSA+<005",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range4": {
+			"limits": [
+			  24575,
+			  32767
+			],
+			"cmd": "!001:ROSA+<007",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range5": {
+			"limits": [
+			  -8191,
+			  -3500
+			],
+			"cmd": "!001:ROSA+>001",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range6": {
+			"limits": [
+			  -16383,
+			  -8191
+			],
+			"cmd": "!001:ROSA+>003",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range7": {
+			"limits": [
+			  -24575,
+			  -16383
+			],
+			"cmd": "!001:ROSA+>005",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range8": {
+			"limits": [
+			  -32767,
+			  -24575
+			],
+			"cmd": "!001:ROSA+>007",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		}
+	},
+    	"axs3": {
+		"description": {
+			"pos": "Pan Up",
+			"neg": "Pan Down"
+		},
+		"range0": {
+			"limits": [
+			  -3500,
+			  3500
+			],
+			"cmd": "!001:ROSB+s128",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+			},
+		"range1": {
+			"limits": [
+			3500,
+			8191
+			],
+			"cmd": "!001:ROSB+<001",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range2": {
+			"limits": [
+			8191,
+			16383
+			],
+			"cmd": "!001:ROSB+<003",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range3": {
+			"limits": [
+			16383,
+			24575
+			],
+			"cmd": "!001:ROSB+<005",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range4": {
+			"limits": [
+			  24575,
+			  32767
+			],
+			"cmd": "!001:ROSB+<007",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range5": {
+			"limits": [
+			  -8191,
+			  -3500
+			],
+			"cmd": "!001:ROSB+>001",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range6": {
+			"limits": [
+			  -16383,
+			  -8191
+			],
+			"cmd": "!001:ROSB+>003",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range7": {
+			"limits": [
+			  -24575,
+			  -16383
+			],
+			"cmd": "!001:ROSB+>005",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range8": {
+			"limits": [
+			  -32767,
+			  -24575
+			],
+			"cmd": "!001:ROSB+>007",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		}
+	},
     "axs6": {
       "description": {
 	"pos": "Gain Upd",
