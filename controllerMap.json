@@ -244,9 +244,9 @@
       }
     },
     "axs4": {
-			"description": {
-				"pos": "Tilt Up",
-				"neg": "Tilt Down"
+		"description": {
+			"pos": "Tilt Up",
+			"neg": "Tilt Down"
 			},
 		"range0": {
 			"limits": [
