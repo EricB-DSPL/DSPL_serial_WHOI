@@ -2,8 +2,8 @@
  "Controller_map": {
     "axs0": {
 		"description": {
-			"pos": "Focus Speed+",
-			"neg": "Focus Speed-"
+			"pos": "Focus Speed Fast",
+			"neg": "Focus Speed Slow"
 		},
 		"range2": {
 			"limits": [
