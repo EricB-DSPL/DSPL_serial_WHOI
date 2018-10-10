@@ -1,4 +1,4 @@
-sudo modprobe fdio_sio
+sudo modprobe ftdi_sio
 sleep 1
 
 cd /home/pi/Application/DSPL-serial/
