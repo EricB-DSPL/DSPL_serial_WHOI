@@ -1,247 +1,136 @@
 {
-  "Controller_map": {
-    "axs1": {
-      "description": {
-	"pos": "Zoom Wide",
-	"neg": "Zoom Tele"
-      },
-      "range16": {
-        "limits": [
-          -1800,
-          1800
-        ],
-        "cmd": "!001:BSCH=0,8101040700FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range15": {
-        "limits": [
-          -5672,
-          -1801
-        ],
-        "cmd": "!001:BSCH=0,8101040720FF",
-        "convertToBinary": "TRUE",
-	"FLAGS": 2
-      },
-      "range14": {
-        "limits": [
-          -9542,
-          -5673
-        ],
-        "cmd": "!001:BSCH=0,8101040721FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range13": {
-        "limits": [
-          -13412,
-          -9542
-        ],
-        "cmd": "!001:BSCH=0,8101040722FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range12": {
-        "limits": [
-          -17283,
-          -13413
-        ],
-        "cmd": "!001:BSCH=0,8101040723FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range11": {
-        "limits": [
-          -21154,
-          -17284
-        ],
-        "cmd": "!001:BSCH=0,8101040724FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range10": {
-        "limits": [
-          -25025,
-          -21155
-        ],
-        "cmd": "!001:BSCH=0,8101040725FF",
-        "convertToBinary": "TRUE",
-	"FLAGS": 1
-      },
-      "range9": {
-        "limits": [
-          -28896,
-          -25026
-        ],
-        "cmd": "!001:BSCH=0,8101040726FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range8": {
-        "limits": [
-          -32767,
-          -28897
-        ],
-        "cmd": "!001:BSCH=0,8101040727FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range7": {
-        "limits": [
-          28897,
-          32767
-        ],
-        "cmd": "!001:BSCH=0,8101040737FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range6": {
-        "limits": [
-          25026,
-          28897
-        ],
-        "cmd": "!001:BSCH=0,8101040736FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range5": {
-        "limits": [
-          21155,
-          25025
-        ],
-        "cmd": "!001:BSCH=0,8101040735FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range4": {
-        "limits": [
-          17284,
-          21154
-        ],
-        "cmd": "!001:BSCH=0,8101040734FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 2
-      },
-      "range3": {
-        "limits": [
-          13413,
-          17283
-        ],
-        "cmd": "!001:BSCH=0,8101040733FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range2": {
-        "limits": [
-          9542,
-          13412
-        ],
-        "cmd": "!001:BSCH=0,8101040732FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range1": {
-        "limits": [
-          5670,
-          9541
-        ],
-        "cmd": "!001:BSCH=0,8101040731FF",
-        "convertToBinary": "TRUE",
-	"FLAGS": 1
-      },
-      "range0": {
-        "limits": [
-          1800,
-          5669
-        ],
-        "cmd": "!001:BSCH=0,8101040730FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      }
+ "Controller_map": {
+    "axs0": {
+		"description": {
+			"pos": "Focus Plus",
+			"neg": "Focus Minus"
+		},
+		"range2": {
+			"limits": [
+			16383,
+			32767
+			],
+			"cmd": "!001:AFOS=2",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range1": {
+			"limits": [
+			-16383,
+			16383
+			],
+			"cmd": "!001:AFOS=1",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range0": {
+			"limits": [
+			-32767,
+			-16383
+			],
+			"cmd": "!001:AFOS=0",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		}
+    },
+	"axs1": {
+		"description": {
+			"pos": "Focus Far2",
+			"neg": "Focus Near2"
+		},
+		"range2": {
+			"limits": [
+			-16383,
+			16383
+			],
+			"cmd": "!001:BSCH=0,8101040800FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+			},
+		"range1": {
+			"limits": [
+			16383,
+			32767
+			],
+			"cmd": "!001:AFOS-",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range0": {
+			"limits": [
+			  -32767,
+			  -16383
+			],
+			"cmd": "!001:AFOS+",
+			"convertToBinary": "FALSE",
+				"FLAGS": 1
+		}
     },
     "axs5": {
-      "description": {
-	"pos": "Focus Far",
-	"neg": "Focus Far"
-      },
-      "range3": {
-        "limits": [
-          16382,
-          32767
-        ],
-        "cmd": "!001:BSCH=0,8101040822FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range2": {
-        "limits": [
-          1,
-          16383
-        ],
-        "cmd": "!001:BSCH=0,8101040821FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range1": {
-        "limits": [
-          -16382,
-          0
-        ],
-        "cmd": "!001:BSCH=0,8101040820FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range0": {
-        "limits": [
-          -32767,
-          -16383
-        ],
-        "cmd": "!001:BSCH=0,8101040800FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      }
+		"description": {
+			"pos": "Zoom Wide",
+			"neg": "Zoom Wide"
+		},
+		"range3": {
+			"limits": [
+			-32767,
+			-16383
+			],
+			"cmd": "!001:BSCH=0,8101040700FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range2": {
+			"limits": [
+			-16383,
+			16383
+			],
+			"cmd": "!001:BSCH=0,8101040731FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range0": {
+			"limits": [
+			16383,
+			32767
+			],
+			"cmd": "!001:BSCH=0,8101040732FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		}
     },
     "axs2": {
-      "description": {
-	"pos": "Focus Near",
-	"neg": "Focus Near"
-      },
-      "range3": {
-        "limits": [
-          16382,
-          32767
-        ],
-        "cmd": "!001:BSCH=0,8101040832FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range2": {
-        "limits": [
-          1,
-          16383
-        ],
-        "cmd": "!001:BSCH=0,8101040831FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range1": {
-        "limits": [
-          -16382,
-          0
-        ],
-        "cmd": "!001:BSCH=0,8101040830FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range0": {
-        "limits": [
-          -32767,
-          -16383
-        ],
-        "cmd": "!001:BSCH=0,8101040800FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      }
+		"description": {
+			"pos": "Zoom Tele",
+			"neg": "Zoom Tele"
+		},
+		"range3": {
+			"limits": [
+			-32767,
+			-16383
+			],
+			"cmd": "!001:BSCH=0,8101040700FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range2": {
+			"limits": [
+			-16383,
+			16383
+			],
+			"cmd": "!001:BSCH=0,8101040721FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range0": {
+			"limits": [
+			16383,
+			32767
+			],
+			"cmd": "!001:BSCH=0,8101040722FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		}
     },
     "axs4": {
 		"description": {
@@ -298,7 +187,7 @@
 			  -8191,
 			  -3500
 			],
-			"cmd": "!001:ROSA+>001",
+			"cmd": "!001:ROSA+<001",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
@@ -307,7 +196,7 @@
 			  -16383,
 			  -8191
 			],
-			"cmd": "!001:ROSA+>003",
+			"cmd": "!001:ROSA+<003",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
@@ -316,7 +205,7 @@
 			  -24575,
 			  -16383
 			],
-			"cmd": "!001:ROSA+>005",
+			"cmd": "!001:ROSA+<005",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
@@ -325,7 +214,7 @@
 			  -32767,
 			  -24575
 			],
-			"cmd": "!001:ROSA+>007",
+			"cmd": "!001:ROSA+<007",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
@@ -385,7 +274,7 @@
 			  -8191,
 			  -3500
 			],
-			"cmd": "!001:ROSB+>001",
+			"cmd": "!001:ROSB+<001",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
@@ -394,7 +283,7 @@
 			  -16383,
 			  -8191
 			],
-			"cmd": "!001:ROSB+>003",
+			"cmd": "!001:ROSB+<003",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
@@ -403,7 +292,7 @@
 			  -24575,
 			  -16383
 			],
-			"cmd": "!001:ROSB+>005",
+			"cmd": "!001:ROSB+<005",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		},
@@ -412,124 +301,124 @@
 			  -32767,
 			  -24575
 			],
-			"cmd": "!001:ROSB+>007",
+			"cmd": "!001:ROSB+<007",
 			"convertToBinary": "FALSE",
 			"FLAGS": 1
 		}
 	},
     "axs6": {
-      "description": {
-	"pos": "Gain Upd",
-	"neg": "Gain Down"
-      },
-      "range0": {
-        "limits": [
-          32766,
-          32767
-        ],
-        "cmd": "!001:BSCH=0,8101040C02FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range1": {
-        "limits": [
-          -32767,
-          -32766
-        ],
-        "cmd": "!001:BSCH=0,8101040C03FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      }
+		"description": {
+		"pos": "Gain Upd",
+		"neg": "Gain Down"
+		},
+		"range0": {
+			"limits": [
+			32766,
+			32767
+			],
+			"cmd": "!001:BSCH=0,8101040C02FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range1": {
+			"limits": [
+			-32767,
+			-32766
+			],
+			"cmd": "!001:BSCH=0,8101040C03FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		}
     },
     "axs7": {
-      "description": {
-	"pos": "Iris Down",
-	"neg": "Iris Up"
-      },
-      "range0": {
-        "limits": [
-          32766,
-          32767
-        ],
-        "cmd": "!001:BSCH=0,8101040B03FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      },
-      "range1": {
-        "limits": [
-          -32767,
-          -32766
-        ],
-        "cmd": "!001:BSCH=0,8101040B02FF",
-        "convertToBinary": "FALSE",
-	"FLAGS": 1
-      }
+		"description": {
+			"pos": "Iris Down",
+			"neg": "Iris Up"
+		},
+		"range0": {
+			"limits": [
+			32766,
+			32767
+			],
+			"cmd": "!001:BSCH=0,8101040B03FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		},
+		"range1": {
+			"limits": [
+			-32767,
+			-32766
+			],
+			"cmd": "!001:BSCH=0,8101040B02FF",
+			"convertToBinary": "FALSE",
+			"FLAGS": 1
+		}
     },
     "btn0": {
-      "cmd": "!001:BSCH=0,8101043810FF",
-      "convertToBinary": "FALSE",
-      "description": "Toggle Focus",
-      "FLAGS": 1
+		"cmd": "!001:BSCH=0,8101043810FF",
+		"convertToBinary": "FALSE",
+		"description": "Toggle Focus",
+		"FLAGS": 1
     },
     "btn1": {
-      "cmd": "8100FF",
-      "convertToBinary": "true",
-      "description": "-",
-      "FLAGS": 0
+		"cmd": "8100FF",
+		"convertToBinary": "true",
+		"description": "-",
+		"FLAGS": 0
     },
     "btn2": {
-      "cmd": "8100FF",
-      "convertToBinary": "true",
-      "description": "-",
-      "FLAGS": 0
+		"cmd": "!001:BSCH=0,8101041801FF",
+		"convertToBinary": "FALSE",
+		"description": "One Push AF",
+		"FLAGS": 1
     },
     "btn3": {
-      "cmd": "8100FF",
-      "convertToBinary": "true",
-      "description": "-",
-      "FLAGS": 0
+		"cmd": "8100FF",
+		"convertToBinary": "true",
+		"description": "-",
+		"FLAGS": 0
     },
     "btn4": {
-      "cmd": "!001:BSCH=0,8101040A03FF",
-      "convertToBinary": "FALSE",
-      "description": "Shutter Down",
-      "FLAGS": 1
+		"cmd": "!001:BSCH=0,8101040A03FF",
+		"convertToBinary": "FALSE",
+		"description": "Shutter Down",
+		"FLAGS": 1
     },
     "btn5": {
-      "cmd": "!001:BSCH=0,8101040A02FF",
-      "convertToBinary": "FALSE",
-      "description": "Shutter Up",
-      "FLAGS": 1
+		"cmd": "!001:BSCH=0,8101040A02FF",
+		"convertToBinary": "FALSE",
+		"description": "Shutter Up",
+		"FLAGS": 1
     },
     "btn6": {
-      "cmd": "!001:BSCH=0,8101043900FF",
-      "convertToBinary": "FALSE",
-      "description": "Auto AE",
-      "FLAGS": 1
+		"cmd": "!001:BSCH=0,8101043900FF",
+		"convertToBinary": "FALSE",
+		"description": "Auto AE",
+		"FLAGS": 1
     },
     "btn7": {
-      "cmd": "!001:BSCH=0,8101043903FF",
-      "convertToBinary": "FALSE",
-      "description": "Manual AE",
-      "FLAGS": 1
+		"cmd": "!001:BSCH=0,8101043903FF",
+		"convertToBinary": "FALSE",
+		"description": "Manual AE",
+		"FLAGS": 1
     },
     "btn8": {
-      "cmd": "8100FF",
-      "convertToBinary": "true",
-      "description": "-",
-      "FLAGS": 0
+		"cmd": "8100FF",
+		"convertToBinary": "true",
+		"description": "-",
+		"FLAGS": 0
     },
     "btn9": {
-      "cmd": "8100FF",
-      "convertToBinary": "true",
-      "description": "-",
-      "FLAGS": 0
+		"cmd": "8100FF",
+		"convertToBinary": "true",
+		"description": "-",
+		"FLAGS": 0
     },
     "btn10": {
-      "cmd": "8100FF",
-      "convertToBinary": "true",
-      "description": "-",
-      "FLAGS": 0
+		"cmd": "8100FF",
+		"convertToBinary": "true",
+		"description": "-",
+		"FLAGS": 0
     }
   }
 }
