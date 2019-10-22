@@ -295,8 +295,6 @@
                         <child>
                           <object class="GtkButton" id="btnIris_UP">
                             <property name="label" translatable="yes">+</property>
-                            <property name="width_request">60</property>
-                            <property name="height_request">60</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">True</property>
@@ -385,8 +383,6 @@
                         <child>
                           <object class="GtkButton" id="btnShutter_UP">
                             <property name="label" translatable="yes">+</property>
-                            <property name="width_request">60</property>
-                            <property name="height_request">60</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">True</property>
@@ -475,8 +471,6 @@
                         <child>
                           <object class="GtkButton" id="btnGain_UP">
                             <property name="label" translatable="yes">+</property>
-                            <property name="width_request">60</property>
-                            <property name="height_request">60</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">True</property>
